@@ -5,7 +5,7 @@
  * Date:2018年6月10日下午6:22:51
  * Copyright (c) 2018, chenzhou1025@126.com All Rights Reserved.
  *
-*/
+ */
 
 package com.briup.apps.app02.config;
 
@@ -26,9 +26,9 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
  * Reason:	 TODO ADD REASON. <br/>
  * Date:     2018年6月10日 下午6:22:51 <br/>
  * @author   lichunyu
- * @version  
+ * @version
  * @since    JDK 1.6
- * @see 	 
+ * @see
  */
 @Configuration
 @EnableSwagger2
@@ -42,7 +42,7 @@ public class Swagger2 {
 				.paths(PathSelectors.any())
 				.build();
 	}
-	
+
 	private ApiInfo apiInfo() {
 		return new ApiInfoBuilder()
 				.title("智慧校园-学生选课系统")
